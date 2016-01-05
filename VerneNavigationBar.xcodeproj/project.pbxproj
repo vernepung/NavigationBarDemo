@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62C34CC81B9C643B0011D76E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C34CC71B9C643B0011D76E /* main.m */; };
+		62C34CCB1B9C643B0011D76E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C34CCA1B9C643B0011D76E /* AppDelegate.m */; };
+		62C34CCE1B9C643B0011D76E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C34CCD1B9C643B0011D76E /* ViewController.m */; };
+		62C34CD11B9C643B0011D76E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62C34CCF1B9C643B0011D76E /* Main.storyboard */; };
+		62C34CD31B9C643B0011D76E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C34CD21B9C643B0011D76E /* Images.xcassets */; };
+		62C34CD61B9C643B0011D76E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62C34CD41B9C643B0011D76E /* LaunchScreen.xib */; };
+		62C34CE21B9C643B0011D76E /* VerneNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C34CE11B9C643B0011D76E /* VerneNavigationBarTests.m */; };
+		62C34CED1B9C646A0011D76E /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C34CEC1B9C646A0011D76E /* BaseNavigationController.m */; };
+		62C34CF01B9C64820011D76E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C34CEF1B9C64820011D76E /* BaseViewController.m */; };
+		62C34CF31B9C64EB0011D76E /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C34CF21B9C64EB0011D76E /* TestViewController.m */; };
+		62C34CF61B9C67750011D76E /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C34CF51B9C67750011D76E /* Test1ViewController.m */; };
+		62C34CF81B9C6D220011D76E /* 640-1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C34CF71B9C6D220011D76E /* 640-1136.png */; };
+		62C34CFB1B9C79480011D76E /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C34CFA1B9C79480011D76E /* Test2ViewController.m */; };
+		62C34CFD1B9C7CF20011D76E /* star_all@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C34CFC1B9C7CF20011D76E /* star_all@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62C34CDC1B9C643B0011D76E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62C34CBA1B9C643B0011D76E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62C34CC11B9C643B0011D76E;
+			remoteInfo = VerneNavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62C34CC21B9C643B0011D76E /* VerneNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerneNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62C34CC61B9C643B0011D76E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62C34CC71B9C643B0011D76E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62C34CC91B9C643B0011D76E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62C34CCA1B9C643B0011D76E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62C34CCC1B9C643B0011D76E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62C34CCD1B9C643B0011D76E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62C34CD01B9C643B0011D76E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62C34CD21B9C643B0011D76E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		62C34CD51B9C643B0011D76E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		62C34CDB1B9C643B0011D76E /* VerneNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerneNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62C34CE01B9C643B0011D76E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62C34CE11B9C643B0011D76E /* VerneNavigationBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerneNavigationBarTests.m; sourceTree = "<group>"; };
+		62C34CEB1B9C646A0011D76E /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		62C34CEC1B9C646A0011D76E /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		62C34CEE1B9C64820011D76E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		62C34CEF1B9C64820011D76E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		62C34CF11B9C64EB0011D76E /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		62C34CF21B9C64EB0011D76E /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		62C34CF41B9C67750011D76E /* Test1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Test1ViewController.h; path = ../Test1ViewController.h; sourceTree = "<group>"; };
+		62C34CF51B9C67750011D76E /* Test1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test1ViewController.m; path = ../Test1ViewController.m; sourceTree = "<group>"; };
+		62C34CF71B9C6D220011D76E /* 640-1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "640-1136.png"; sourceTree = "<group>"; };
+		62C34CF91B9C79480011D76E /* Test2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
+		62C34CFA1B9C79480011D76E /* Test2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
+		62C34CFC1B9C7CF20011D76E /* star_all@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_all@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62C34CBF1B9C643B0011D76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62C34CD81B9C643B0011D76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62569A301BAD5E6E0054F63D /* VCS */ = {
+			isa = PBXGroup;
+			children = (
+				62C34CCC1B9C643B0011D76E /* ViewController.h */,
+				62C34CCD1B9C643B0011D76E /* ViewController.m */,
+				62C34CF11B9C64EB0011D76E /* TestViewController.h */,
+				62C34CF21B9C64EB0011D76E /* TestViewController.m */,
+				62C34CF41B9C67750011D76E /* Test1ViewController.h */,
+				62C34CF51B9C67750011D76E /* Test1ViewController.m */,
+				62C34CF91B9C79480011D76E /* Test2ViewController.h */,
+				62C34CFA1B9C79480011D76E /* Test2ViewController.m */,
+			);
+			name = VCS;
+			sourceTree = "<group>";
+		};
+		62C34CB91B9C643B0011D76E = {
+			isa = PBXGroup;
+			children = (
+				62C34CC41B9C643B0011D76E /* VerneNavigationBar */,
+				62C34CDE1B9C643B0011D76E /* VerneNavigationBarTests */,
+				62C34CC31B9C643B0011D76E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62C34CC31B9C643B0011D76E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62C34CC21B9C643B0011D76E /* VerneNavigationBar.app */,
+				62C34CDB1B9C643B0011D76E /* VerneNavigationBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62C34CC41B9C643B0011D76E /* VerneNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				62569A301BAD5E6E0054F63D /* VCS */,
+				62C34CFC1B9C7CF20011D76E /* star_all@2x.png */,
+				62C34CF71B9C6D220011D76E /* 640-1136.png */,
+				62C34CC91B9C643B0011D76E /* AppDelegate.h */,
+				62C34CCA1B9C643B0011D76E /* AppDelegate.m */,
+				62C34CCF1B9C643B0011D76E /* Main.storyboard */,
+				62C34CD21B9C643B0011D76E /* Images.xcassets */,
+				62C34CD41B9C643B0011D76E /* LaunchScreen.xib */,
+				62C34CC51B9C643B0011D76E /* Supporting Files */,
+				62C34CEB1B9C646A0011D76E /* BaseNavigationController.h */,
+				62C34CEC1B9C646A0011D76E /* BaseNavigationController.m */,
+				62C34CEE1B9C64820011D76E /* BaseViewController.h */,
+				62C34CEF1B9C64820011D76E /* BaseViewController.m */,
+			);
+			path = VerneNavigationBar;
+			sourceTree = "<group>";
+		};
+		62C34CC51B9C643B0011D76E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62C34CC61B9C643B0011D76E /* Info.plist */,
+				62C34CC71B9C643B0011D76E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62C34CDE1B9C643B0011D76E /* VerneNavigationBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				62C34CE11B9C643B0011D76E /* VerneNavigationBarTests.m */,
+				62C34CDF1B9C643B0011D76E /* Supporting Files */,
+			);
+			path = VerneNavigationBarTests;
+			sourceTree = "<group>";
+		};
+		62C34CDF1B9C643B0011D76E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62C34CE01B9C643B0011D76E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62C34CC11B9C643B0011D76E /* VerneNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62C34CE51B9C643B0011D76E /* Build configuration list for PBXNativeTarget "VerneNavigationBar" */;
+			buildPhases = (
+				62C34CBE1B9C643B0011D76E /* Sources */,
+				62C34CBF1B9C643B0011D76E /* Frameworks */,
+				62C34CC01B9C643B0011D76E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerneNavigationBar;
+			productName = VerneNavigationBar;
+			productReference = 62C34CC21B9C643B0011D76E /* VerneNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62C34CDA1B9C643B0011D76E /* VerneNavigationBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62C34CE81B9C643B0011D76E /* Build configuration list for PBXNativeTarget "VerneNavigationBarTests" */;
+			buildPhases = (
+				62C34CD71B9C643B0011D76E /* Sources */,
+				62C34CD81B9C643B0011D76E /* Frameworks */,
+				62C34CD91B9C643B0011D76E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62C34CDD1B9C643B0011D76E /* PBXTargetDependency */,
+			);
+			name = VerneNavigationBarTests;
+			productName = VerneNavigationBarTests;
+			productReference = 62C34CDB1B9C643B0011D76E /* VerneNavigationBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62C34CBA1B9C643B0011D76E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = vernepung;
+				TargetAttributes = {
+					62C34CC11B9C643B0011D76E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					62C34CDA1B9C643B0011D76E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 62C34CC11B9C643B0011D76E;
+					};
+				};
+			};
+			buildConfigurationList = 62C34CBD1B9C643B0011D76E /* Build configuration list for PBXProject "VerneNavigationBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62C34CB91B9C643B0011D76E;
+			productRefGroup = 62C34CC31B9C643B0011D76E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62C34CC11B9C643B0011D76E /* VerneNavigationBar */,
+				62C34CDA1B9C643B0011D76E /* VerneNavigationBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62C34CC01B9C643B0011D76E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C34CD11B9C643B0011D76E /* Main.storyboard in Resources */,
+				62C34CFD1B9C7CF20011D76E /* star_all@2x.png in Resources */,
+				62C34CF81B9C6D220011D76E /* 640-1136.png in Resources */,
+				62C34CD61B9C643B0011D76E /* LaunchScreen.xib in Resources */,
+				62C34CD31B9C643B0011D76E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62C34CD91B9C643B0011D76E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62C34CBE1B9C643B0011D76E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C34CF31B9C64EB0011D76E /* TestViewController.m in Sources */,
+				62C34CFB1B9C79480011D76E /* Test2ViewController.m in Sources */,
+				62C34CCE1B9C643B0011D76E /* ViewController.m in Sources */,
+				62C34CF01B9C64820011D76E /* BaseViewController.m in Sources */,
+				62C34CCB1B9C643B0011D76E /* AppDelegate.m in Sources */,
+				62C34CF61B9C67750011D76E /* Test1ViewController.m in Sources */,
+				62C34CC81B9C643B0011D76E /* main.m in Sources */,
+				62C34CED1B9C646A0011D76E /* BaseNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62C34CD71B9C643B0011D76E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C34CE21B9C643B0011D76E /* VerneNavigationBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62C34CDD1B9C643B0011D76E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62C34CC11B9C643B0011D76E /* VerneNavigationBar */;
+			targetProxy = 62C34CDC1B9C643B0011D76E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62C34CCF1B9C643B0011D76E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62C34CD01B9C643B0011D76E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62C34CD41B9C643B0011D76E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62C34CD51B9C643B0011D76E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62C34CE31B9C643B0011D76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62C34CE41B9C643B0011D76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62C34CE61B9C643B0011D76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VerneNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62C34CE71B9C643B0011D76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VerneNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62C34CE91B9C643B0011D76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VerneNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerneNavigationBar.app/VerneNavigationBar";
+			};
+			name = Debug;
+		};
+		62C34CEA1B9C643B0011D76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VerneNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerneNavigationBar.app/VerneNavigationBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62C34CBD1B9C643B0011D76E /* Build configuration list for PBXProject "VerneNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62C34CE31B9C643B0011D76E /* Debug */,
+				62C34CE41B9C643B0011D76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62C34CE51B9C643B0011D76E /* Build configuration list for PBXNativeTarget "VerneNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62C34CE61B9C643B0011D76E /* Debug */,
+				62C34CE71B9C643B0011D76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62C34CE81B9C643B0011D76E /* Build configuration list for PBXNativeTarget "VerneNavigationBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62C34CE91B9C643B0011D76E /* Debug */,
+				62C34CEA1B9C643B0011D76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62C34CBA1B9C643B0011D76E /* Project object */;
+}
